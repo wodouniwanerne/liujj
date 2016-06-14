@@ -1,0 +1,24 @@
+{
+  "name": "jinriyunshi",
+  "version": "1.0.0",
+  "description": "今日运势",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "白鹤松  刘京京",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "iconv-lite": "^0.4.13",
+    "needle": "^1.0.0",
+    "node-schedule": "^1.1.0",
+    "qs": "^6.2.0",
+    "tmpl": "^1.0.4",
+    "wechat-crypto": "0.0.2",
+    "wechat-msg-crypt": "^0.1.7",
+    "xml2js": "^0.4.16"
+  }
+}
