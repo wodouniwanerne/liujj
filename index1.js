@@ -109,7 +109,7 @@ app.post('/', function (request, response) {
                                 response.end(res);
                             }
                             if (result.xml.Event[0] == 'enter_agent') {
-                                var res = replyText('回复星座查看今日运势', result.xml.ToUserName[0], result.xml.FromUserName[0]);
+                                var res = replyText('暂时只能响应星座消息。回复星座查看今日运势', result.xml.ToUserName[0], result.xml.FromUserName[0]);
                                 response.end(res);
                             }
                             
