@@ -247,7 +247,7 @@ app.post('/', function (request, response) {
                                 break;
 
                             default:
-                                var res = replyText('回复星座可看今日运势', result.xml.ToUserName[0], result.xml.FromUserName[0]);
+                                var res = replyText('抱歉，暂时只能响应星座消息。回复星座可看今日运势', result.xml.ToUserName[0], result.xml.FromUserName[0]);
                                 response.end(res);
                         }
                         }
